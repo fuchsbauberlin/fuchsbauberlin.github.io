@@ -67,11 +67,19 @@ aside {
     padding: 0;
 }
 
-ul {
-	@include sans-serif-font;
+ul.bullets {
+	@include serif-font;
 	font-size: 16px;
 	line-height: 1.5;
 }
+
+li {
+	@include serif-font;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+
 
 // Navigation
 
