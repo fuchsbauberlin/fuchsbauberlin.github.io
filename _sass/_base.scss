@@ -93,6 +93,7 @@ aside {
         }
     }
     .nav {
+    	@include sans-serif-font;
         > li {
             > a,
             > a:focus {
